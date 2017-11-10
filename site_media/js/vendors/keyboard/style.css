@@ -1,0 +1,43 @@
+
+#keyboard button {
+float: left;
+margin: 0 10px 10px 0;
+width: 48px;
+height: 48px;
+line-height: 48px;
+text-align: center;
+background: #f4f4f4;
+border:0 none;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 0 2px 0 #ccc;
+font-size: 18px;
+color: #888;
+font-family: 'Helvetica';
+}
+#keyboard .letter-a{ margin-left: 25px;clear: left;}
+#keyboard .capslock {
+	margin-left:10px;
+	clear: left;
+}
+#keyboard .last-item{ margin-right: 0;}
+#keyboard .delete,#keyboard .capslock{ width:96px;}
+#keyboard .enter{ width: 88px;}
+#keyboard .space{ width: 566px; margin-left:50px;clear: left;}
+.uppercase {
+text-transform: uppercase;
+}
+
+#keyboard button:hover {
+background: #ededed;
+cursor: pointer;
+}
+#keyboard button.on {
+box-shadow: 2px 2px 5px #666 inset;
+background: #ccc;
+}
+
+/* #keyboard button:focus{
+    box-shadow: 2px 2px 5px #666 inset;
+    background: #ccc;
+} */

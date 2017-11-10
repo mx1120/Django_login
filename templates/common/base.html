@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{% block title %}{% endblock %}Color</title>
+    <link rel="stylesheet" href="/site_media/js/vendors/dialog/dialog.css">
+    <link rel="stylesheet" href="/site_media/css/reset.css">
+    <link rel="stylesheet" href="/site_media/js/vendors/BootStrap/css/bootstrap.min.css">
+    {% block css %}{% endblock %}
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
+<script src="/site_media/js/sea.js"></script>
+<script src="/site_media/js/script-config.js"></script>
+<script>
+    seajs.use(['vendors/BootStrap/js/bootstrap'])
+</script>
+{% block js %}{% endblock %}
